@@ -17,10 +17,30 @@ padding: 10px 10px;
 color: rgb(194, 55, 97);
 font-family: Verdana, Geneva, Tahoma, sans-serif;
  position: relative;
-
+}
+#el{
+    width: 300px;
+    height:300px;
+    background-color: rgb(96, 218, 80);
+    border: 1px solid #c3c3c3;
+    padding-left: 9px;
+    padding-right: 210px;
+    padding-bottom: 10px ;
+    display: flex;
+    position: relative;
+    top: 80px;
+    right: 400px;
+    left: 400px;  
 
 }
-
+#el div {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 100px;
+}
+#el div:nth-of-type(2) {
+  flex-basis: 100px;
+}
 .mg{ 
     text-decoration: none;
     padding: 05px;
@@ -31,12 +51,12 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 4px;
     border: 2px solid #50f072;
     position: relative;
-    top: 570px;
+    top: 45px;
     text-align: center;
     display: inline-block;
     bottom: 50px;
     right: 100px;
-    left: 550px;
+    left: 150px;
     
 
 }
@@ -49,13 +69,61 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 6px;
     border: 2px solid #f1a55d;
     position: relative;
-    top: 570px;
+    top: 45px;
     text-align: center;
     right: 100px;
-    left: 560px;
+    left: 160px;
     cursor: pointer;
 }
 .eb:hover{
     background-color:#da8a3f;
     color: white;
 }      
+.game{
+    background-color: rgba(255, 255, 255, 0.952);
+    width: 50px;
+    height: 40px;
+    top: 70px;
+    left: 450px;
+    right: 400px;
+    position: relative;
+
+}
+.p1{
+    color: rgb(235, 33, 67);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font: bolder;
+}
+.game2{
+    background-color: rgba(255, 255, 255, 0.952);
+    width: 50px;
+    height: 40px;
+    top: 08px;
+    left: 800px;
+    right: 400px;
+    position: relative;
+}
+.p2{
+    color: rgb(54, 22, 233);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font: bolder;
+}
+.imagen{
+    position: relative;
+    top: -30px;
+    left: 410px;
+}
+.imagen2{
+    position: relative;
+    top:-32px ;
+    left: 355px;
+
+}
+.imagen3{
+    position: relative;
+    top:-75px ;
+    left: 200px;
+
+}
